@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS db_devbook;
-USE db_devbook;
+CREATE DATABASE IF NOT EXISTS devbook;
+USE devbook;
 
 DROP TABLE IF EXISTS usuarios;
 
@@ -13,8 +13,8 @@ CREATE TABLE usuarios(
 )  ENGINE=INNODB;
 
 desc usuarios;
-
 select * from usuarios;
+select * from seguidores;
 
 
 CREATE TABLE seguidores(
